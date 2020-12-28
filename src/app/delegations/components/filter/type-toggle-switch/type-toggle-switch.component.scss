@@ -1,0 +1,19 @@
+@import 'mixins';
+:host {
+  flex: 1;
+}
+.toggle-group {
+  border: none;
+  padding: 0.5rem;
+  &__button {
+    border: none;
+    @include neo-box-shadow();
+    &.mat-button-toggle:last-child {
+      border-left: none;
+      margin-left: 0.75rem;
+    }
+    &.mat-button-toggle-checked {
+      @include neo-box-shadow-active();
+    }
+  }
+}

@@ -1,0 +1,5 @@
+<mat-button-toggle-group class="toggle-group" name="type-toggle" aria-label="Type Toggle Switch" [value]="selectedValue" color="primary" (change)="onToggle($event.value)">
+  <ng-container *ngFor="let type of data">
+    <mat-button-toggle class="toggle-group__button" [value]="type.name">{{type?.displayValue}}</mat-button-toggle>
+  </ng-container>
+</mat-button-toggle-group>

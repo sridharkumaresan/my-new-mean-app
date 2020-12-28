@@ -1,0 +1,34 @@
+[
+  {
+    'repeat(50, 0)': {
+      id: '{{index(51)}}',
+      createdAt: '{{moment(this.date(new Date(2020, 0, 1), new Date())).format("LLLL")}}',
+      status: '{{random("feature","current","cancelled")}}',
+      delegatorName: '{{firstName()}}, {{surname()}}',
+      delegateeName: '{{firstName()}}, {{surname()}}',
+      tasks: [
+        {
+         	'repeat(2)': {
+            	applicationKey: '{{random("CRL","MBL","PIAH")}}',
+            	taskList: [
+                	'{{random("TASK_1","TASK_2","TASK_3")}}',
+                    '{{random("TASK_4","TASK_5","TASK_6")}}',
+                    '{{random("TASK_7","TASK_8","TASK_9")}}'
+                ],
+          		typeKey: '{{random("employee","supervisor")}}'
+            }
+        }
+      ],
+      frequency: '{{random("WEEKLY","MONTHLY","BI-WEEKLY")}}',
+      startDate: '{{moment(this.date(new Date(2020, 0, 1), new Date())).format("LLLL")}}',
+      endDate: '{{moment(this.date(new Date(2020, 0, 1), new Date())).format("LLLL")}}',
+      entitlements: {
+      	canEdit: '{{random(true, false)}}',
+        canCancel: '{{random(true, false)}}'
+      },
+      picture(tags) {
+        return `https://picsum.photos/id/${this.id}/64`;
+      },
+    }
+  }
+]

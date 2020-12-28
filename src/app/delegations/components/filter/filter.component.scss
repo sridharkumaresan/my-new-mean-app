@@ -1,0 +1,9 @@
+:host {
+  position: sticky;
+  top: 0;
+  display: flex;
+  z-index: 1;
+  max-height: 50px;
+  align-items: center;
+  padding: 0.5rem 0;
+}

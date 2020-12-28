@@ -1,0 +1,43 @@
+<mat-card class="delegation-card mat-elevation-z0">
+  <ng-container *ngTemplateOutlet="delegationTmpl; context: {d: delegation$ | async, s: delegationLoading$ | async}"></ng-container>
+</mat-card>
+
+<ng-template #delegationTmpl let-delegation="d" let-viewStatus="s">
+  <!-- Initial State -->
+  <ng-container *ngIf="viewStatus === viewStatuses.Initial">
+    <section class="no-selection">
+      Select Delegation from Left side list
+    </section>
+  </ng-container>
+  <!-- Loading indicator -->
+  <ng-container *ngIf="viewStatus === viewStatuses.Loading">
+    <section class="no-selection">
+      <mat-progress-bar [mode]="'buffer'"></mat-progress-bar>
+    </section>
+  </ng-container>
+  <!-- Success state and delegation in shown -->
+  <ng-container *ngIf="viewStatus === viewStatuses.Success && delegation">
+    <aside class="delegation-card__left">
+      <div class="delegation-card__left employee-data">
+        <div class="picture">
+          <img class="img-fluid" [src]="delegation.picture">
+        </div>
+        <div class="team-content">
+          <h3 class="name">{{delegation.delegateeName}}</h3>
+          <h4 class="title">Title Goes Here</h4>
+        </div>
+
+      </div>
+      <div class="delegation-card__left additional-data">
+
+      </div>
+    </aside>
+    <section class="delegation-card__right">
+      <div class="row end">
+        <mat-chip-list class="status-list">
+          <mat-chip class="status-list__status--{{delegation.status}}">{{delegation.status}}</mat-chip>
+        </mat-chip-list>
+      </div>
+    </section>
+  </ng-container>
+</ng-template>

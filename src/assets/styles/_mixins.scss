@@ -1,0 +1,11 @@
+@mixin neo-box-shadow {
+  background: #ededed;
+  border-radius: 0.3125rem;
+  box-shadow: 3px 3px 9px #D8D8D8, -3px -3px 10px #FFFFFF;
+}
+
+@mixin neo-box-shadow-active {
+  background: #ededed;
+  border-radius: 0.3125rem;
+  box-shadow: inset 3px 3px 9px #D9DADE, inset -3px -3px 10px #FFFFFF;
+}

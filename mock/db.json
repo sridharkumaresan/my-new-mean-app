@@ -1,0 +1,3572 @@
+{
+  "delegatees": [
+    {
+      "id": 1,
+      "createdAt": "Thursday, July 23, 2020 3:40 PM",
+      "status": "current",
+      "delegatorName": "Gallegos, Cochran",
+      "delegateeName": "Myra, Salazar",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Sunday, August 9, 2020 2:12 PM",
+      "endDate": "Friday, September 18, 2020 4:12 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/1/64"
+    },
+    {
+      "id": 2,
+      "createdAt": "Monday, July 27, 2020 2:45 PM",
+      "status": "cancelled",
+      "delegatorName": "Penny, Landry",
+      "delegateeName": "Bell, Alston",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_6",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Sunday, January 19, 2020 9:33 PM",
+      "endDate": "Wednesday, July 8, 2020 8:29 PM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/2/64"
+    },
+    {
+      "id": 3,
+      "createdAt": "Tuesday, August 18, 2020 9:38 PM",
+      "status": "feature",
+      "delegatorName": "Consuelo, Webster",
+      "delegateeName": "Pratt, Love",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Tuesday, July 21, 2020 5:14 PM",
+      "endDate": "Thursday, October 1, 2020 3:56 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/3/64"
+    },
+    {
+      "id": 4,
+      "createdAt": "Thursday, December 3, 2020 12:14 AM",
+      "status": "feature",
+      "delegatorName": "Nash, Goodwin",
+      "delegateeName": "Roman, Stephens",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Saturday, April 25, 2020 7:39 AM",
+      "endDate": "Saturday, February 22, 2020 12:17 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/4/64"
+    },
+    {
+      "id": 5,
+      "createdAt": "Sunday, November 22, 2020 3:32 PM",
+      "status": "cancelled",
+      "delegatorName": "Edwards, Howell",
+      "delegateeName": "Powers, Joseph",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Wednesday, February 12, 2020 10:53 AM",
+      "endDate": "Tuesday, October 20, 2020 12:01 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/5/64"
+    },
+    {
+      "id": 6,
+      "createdAt": "Friday, February 7, 2020 1:40 PM",
+      "status": "feature",
+      "delegatorName": "Nguyen, Crane",
+      "delegateeName": "Erma, Barr",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_6",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Wednesday, February 19, 2020 11:28 PM",
+      "endDate": "Friday, April 17, 2020 10:25 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/6/64"
+    },
+    {
+      "id": 7,
+      "createdAt": "Saturday, October 3, 2020 9:54 AM",
+      "status": "feature",
+      "delegatorName": "Natasha, Bruce",
+      "delegateeName": "Alejandra, Rice",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Sunday, July 19, 2020 2:53 AM",
+      "endDate": "Wednesday, November 18, 2020 9:16 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/7/64"
+    },
+    {
+      "id": 8,
+      "createdAt": "Thursday, January 16, 2020 1:38 AM",
+      "status": "current",
+      "delegatorName": "Minnie, Todd",
+      "delegateeName": "Hess, Burgess",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Wednesday, April 8, 2020 8:19 PM",
+      "endDate": "Saturday, December 5, 2020 7:31 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/8/64"
+    },
+    {
+      "id": 9,
+      "createdAt": "Monday, February 17, 2020 4:05 PM",
+      "status": "cancelled",
+      "delegatorName": "Stephens, Romero",
+      "delegateeName": "Holland, Cannon",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Tuesday, July 7, 2020 5:10 PM",
+      "endDate": "Thursday, April 30, 2020 8:53 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/9/64"
+    },
+    {
+      "id": 10,
+      "createdAt": "Monday, April 20, 2020 7:15 AM",
+      "status": "cancelled",
+      "delegatorName": "Copeland, Herring",
+      "delegateeName": "Mabel, Higgins",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Sunday, September 6, 2020 2:33 AM",
+      "endDate": "Friday, August 21, 2020 11:46 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/10/64"
+    },
+    {
+      "id": 11,
+      "createdAt": "Sunday, July 12, 2020 12:12 AM",
+      "status": "cancelled",
+      "delegatorName": "Angel, Zimmerman",
+      "delegateeName": "Schneider, Myers",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Monday, September 28, 2020 1:13 PM",
+      "endDate": "Monday, February 10, 2020 7:25 PM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/11/64"
+    },
+    {
+      "id": 12,
+      "createdAt": "Wednesday, May 20, 2020 9:50 PM",
+      "status": "feature",
+      "delegatorName": "Battle, Foley",
+      "delegateeName": "Suarez, Ballard",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Monday, May 11, 2020 12:01 AM",
+      "endDate": "Thursday, January 9, 2020 11:32 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/12/64"
+    },
+    {
+      "id": 13,
+      "createdAt": "Wednesday, August 12, 2020 2:24 PM",
+      "status": "cancelled",
+      "delegatorName": "Workman, Dunlap",
+      "delegateeName": "Virginia, Stafford",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Friday, February 28, 2020 4:20 AM",
+      "endDate": "Monday, October 26, 2020 11:47 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/13/64"
+    },
+    {
+      "id": 14,
+      "createdAt": "Sunday, February 16, 2020 7:45 AM",
+      "status": "feature",
+      "delegatorName": "Corine, Tran",
+      "delegateeName": "Hilda, Wynn",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Thursday, June 11, 2020 5:27 AM",
+      "endDate": "Friday, November 20, 2020 4:47 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/14/64"
+    },
+    {
+      "id": 15,
+      "createdAt": "Wednesday, February 12, 2020 8:27 AM",
+      "status": "current",
+      "delegatorName": "Wilder, Sears",
+      "delegateeName": "Goldie, Dillon",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Sunday, January 12, 2020 7:35 PM",
+      "endDate": "Saturday, January 4, 2020 5:21 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/15/64"
+    },
+    {
+      "id": 16,
+      "createdAt": "Wednesday, July 22, 2020 2:02 PM",
+      "status": "cancelled",
+      "delegatorName": "Janna, Castro",
+      "delegateeName": "Aurelia, Santiago",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Monday, January 13, 2020 6:46 PM",
+      "endDate": "Thursday, July 9, 2020 4:08 PM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/16/64"
+    },
+    {
+      "id": 17,
+      "createdAt": "Thursday, August 27, 2020 1:07 AM",
+      "status": "cancelled",
+      "delegatorName": "Carmen, Contreras",
+      "delegateeName": "Jayne, Manning",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_6",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Monday, November 9, 2020 1:22 AM",
+      "endDate": "Sunday, January 5, 2020 8:58 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/17/64"
+    },
+    {
+      "id": 18,
+      "createdAt": "Friday, November 27, 2020 8:52 PM",
+      "status": "cancelled",
+      "delegatorName": "Lana, Eaton",
+      "delegateeName": "Wise, Chavez",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Sunday, March 22, 2020 3:29 AM",
+      "endDate": "Thursday, December 17, 2020 4:20 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/18/64"
+    },
+    {
+      "id": 19,
+      "createdAt": "Friday, October 16, 2020 2:29 PM",
+      "status": "current",
+      "delegatorName": "Mercedes, Weber",
+      "delegateeName": "Tanner, Knowles",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Monday, March 16, 2020 3:26 AM",
+      "endDate": "Monday, June 1, 2020 8:25 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/19/64"
+    },
+    {
+      "id": 20,
+      "createdAt": "Thursday, May 21, 2020 7:36 AM",
+      "status": "feature",
+      "delegatorName": "Beasley, Acosta",
+      "delegateeName": "Pollard, Moses",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Saturday, February 22, 2020 6:42 PM",
+      "endDate": "Monday, December 14, 2020 9:51 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/20/64"
+    },
+    {
+      "id": 21,
+      "createdAt": "Tuesday, September 1, 2020 6:50 AM",
+      "status": "current",
+      "delegatorName": "Parks, Long",
+      "delegateeName": "Contreras, Pickett",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Wednesday, November 11, 2020 4:09 PM",
+      "endDate": "Wednesday, December 2, 2020 12:03 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/21/64"
+    },
+    {
+      "id": 22,
+      "createdAt": "Saturday, April 11, 2020 5:43 AM",
+      "status": "feature",
+      "delegatorName": "Tina, Sullivan",
+      "delegateeName": "Frazier, Barlow",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Friday, January 24, 2020 10:47 AM",
+      "endDate": "Saturday, October 10, 2020 10:23 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/22/64"
+    },
+    {
+      "id": 23,
+      "createdAt": "Thursday, April 16, 2020 12:14 PM",
+      "status": "feature",
+      "delegatorName": "Massey, Howe",
+      "delegateeName": "Kendra, Weeks",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Saturday, May 2, 2020 6:03 AM",
+      "endDate": "Tuesday, December 1, 2020 11:53 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/23/64"
+    },
+    {
+      "id": 24,
+      "createdAt": "Sunday, November 1, 2020 5:09 AM",
+      "status": "current",
+      "delegatorName": "Virgie, Simon",
+      "delegateeName": "Ladonna, Coleman",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Wednesday, November 11, 2020 1:38 PM",
+      "endDate": "Thursday, September 24, 2020 9:55 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/24/64"
+    },
+    {
+      "id": 25,
+      "createdAt": "Friday, February 14, 2020 11:55 AM",
+      "status": "current",
+      "delegatorName": "Nelson, Wright",
+      "delegateeName": "Hurley, Hudson",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_3",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Sunday, April 5, 2020 9:40 PM",
+      "endDate": "Sunday, July 19, 2020 9:53 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/25/64"
+    },
+    {
+      "id": 26,
+      "createdAt": "Friday, November 13, 2020 5:28 AM",
+      "status": "feature",
+      "delegatorName": "Darla, Kline",
+      "delegateeName": "Morton, Best",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Friday, January 10, 2020 6:28 AM",
+      "endDate": "Tuesday, November 3, 2020 4:44 PM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/26/64"
+    },
+    {
+      "id": 27,
+      "createdAt": "Sunday, October 25, 2020 6:30 PM",
+      "status": "current",
+      "delegatorName": "Mcmahon, Chase",
+      "delegateeName": "Thomas, Mcclure",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Saturday, January 25, 2020 8:13 PM",
+      "endDate": "Sunday, December 6, 2020 8:27 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/27/64"
+    },
+    {
+      "id": 28,
+      "createdAt": "Tuesday, December 1, 2020 2:07 AM",
+      "status": "feature",
+      "delegatorName": "Eva, Potter",
+      "delegateeName": "Lindsey, Allen",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Tuesday, March 10, 2020 7:44 PM",
+      "endDate": "Saturday, October 31, 2020 6:01 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/28/64"
+    },
+    {
+      "id": 29,
+      "createdAt": "Sunday, January 12, 2020 5:37 PM",
+      "status": "current",
+      "delegatorName": "Daniel, Morgan",
+      "delegateeName": "Mallory, Frazier",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Wednesday, October 21, 2020 11:14 PM",
+      "endDate": "Tuesday, June 9, 2020 12:22 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/29/64"
+    },
+    {
+      "id": 30,
+      "createdAt": "Friday, January 3, 2020 8:17 PM",
+      "status": "current",
+      "delegatorName": "Patterson, Slater",
+      "delegateeName": "Guerrero, Wilcox",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Wednesday, July 29, 2020 10:36 AM",
+      "endDate": "Sunday, October 4, 2020 11:39 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/30/64"
+    },
+    {
+      "id": 31,
+      "createdAt": "Thursday, June 11, 2020 1:41 AM",
+      "status": "current",
+      "delegatorName": "Riggs, Holman",
+      "delegateeName": "Sargent, Chandler",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Monday, April 20, 2020 5:58 AM",
+      "endDate": "Tuesday, May 19, 2020 4:14 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/31/64"
+    },
+    {
+      "id": 32,
+      "createdAt": "Saturday, February 8, 2020 4:30 AM",
+      "status": "feature",
+      "delegatorName": "Claudette, Skinner",
+      "delegateeName": "Gillespie, Kelly",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Tuesday, October 27, 2020 7:18 PM",
+      "endDate": "Sunday, November 29, 2020 2:43 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/32/64"
+    },
+    {
+      "id": 33,
+      "createdAt": "Thursday, September 17, 2020 8:37 PM",
+      "status": "cancelled",
+      "delegatorName": "Ray, Tucker",
+      "delegateeName": "Ila, Singleton",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Thursday, July 30, 2020 3:00 PM",
+      "endDate": "Tuesday, November 10, 2020 10:41 PM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/33/64"
+    },
+    {
+      "id": 34,
+      "createdAt": "Thursday, September 24, 2020 1:37 PM",
+      "status": "current",
+      "delegatorName": "Casey, Wagner",
+      "delegateeName": "Booth, Hayes",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Monday, March 9, 2020 8:21 PM",
+      "endDate": "Thursday, November 19, 2020 5:36 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/34/64"
+    },
+    {
+      "id": 35,
+      "createdAt": "Friday, November 13, 2020 7:58 PM",
+      "status": "cancelled",
+      "delegatorName": "Page, Olson",
+      "delegateeName": "Fannie, Brock",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Wednesday, July 8, 2020 6:43 PM",
+      "endDate": "Wednesday, July 15, 2020 6:19 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/35/64"
+    },
+    {
+      "id": 36,
+      "createdAt": "Monday, May 11, 2020 5:54 AM",
+      "status": "current",
+      "delegatorName": "Hawkins, Gilbert",
+      "delegateeName": "Melva, Cotton",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Wednesday, December 9, 2020 11:49 PM",
+      "endDate": "Monday, April 13, 2020 5:23 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/36/64"
+    },
+    {
+      "id": 37,
+      "createdAt": "Sunday, August 16, 2020 11:52 AM",
+      "status": "feature",
+      "delegatorName": "Ramona, Kerr",
+      "delegateeName": "Candace, Woods",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Sunday, May 17, 2020 2:55 PM",
+      "endDate": "Monday, March 16, 2020 10:03 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/37/64"
+    },
+    {
+      "id": 38,
+      "createdAt": "Thursday, April 16, 2020 10:18 PM",
+      "status": "feature",
+      "delegatorName": "Hooper, Francis",
+      "delegateeName": "Hartman, Norris",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Saturday, May 23, 2020 3:45 PM",
+      "endDate": "Sunday, April 5, 2020 6:03 PM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/38/64"
+    },
+    {
+      "id": 39,
+      "createdAt": "Saturday, January 25, 2020 3:40 AM",
+      "status": "feature",
+      "delegatorName": "Aguirre, Simpson",
+      "delegateeName": "Leticia, Graves",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Monday, January 6, 2020 11:35 PM",
+      "endDate": "Monday, July 20, 2020 5:25 PM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/39/64"
+    },
+    {
+      "id": 40,
+      "createdAt": "Saturday, May 30, 2020 11:09 PM",
+      "status": "feature",
+      "delegatorName": "Carr, Dawson",
+      "delegateeName": "Dianne, Schroeder",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Monday, December 7, 2020 9:17 AM",
+      "endDate": "Friday, October 9, 2020 8:17 PM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/40/64"
+    },
+    {
+      "id": 41,
+      "createdAt": "Friday, November 27, 2020 5:26 PM",
+      "status": "cancelled",
+      "delegatorName": "Haley, Booth",
+      "delegateeName": "Jaime, Solis",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Wednesday, March 4, 2020 8:29 PM",
+      "endDate": "Saturday, April 4, 2020 12:51 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/41/64"
+    },
+    {
+      "id": 42,
+      "createdAt": "Sunday, January 19, 2020 6:24 PM",
+      "status": "feature",
+      "delegatorName": "Fuller, Gomez",
+      "delegateeName": "Foley, Palmer",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Sunday, June 14, 2020 5:08 AM",
+      "endDate": "Thursday, November 5, 2020 1:25 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/42/64"
+    },
+    {
+      "id": 43,
+      "createdAt": "Saturday, February 22, 2020 5:31 PM",
+      "status": "cancelled",
+      "delegatorName": "Krista, Wyatt",
+      "delegateeName": "Burns, Lowery",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Wednesday, November 11, 2020 1:47 PM",
+      "endDate": "Friday, July 31, 2020 6:52 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/43/64"
+    },
+    {
+      "id": 44,
+      "createdAt": "Saturday, March 28, 2020 12:22 PM",
+      "status": "feature",
+      "delegatorName": "Corrine, Franklin",
+      "delegateeName": "Mclaughlin, Baker",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Wednesday, February 5, 2020 6:25 AM",
+      "endDate": "Sunday, November 8, 2020 11:44 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/44/64"
+    },
+    {
+      "id": 45,
+      "createdAt": "Saturday, May 23, 2020 8:43 PM",
+      "status": "current",
+      "delegatorName": "Shannon, Maynard",
+      "delegateeName": "Peck, Pratt",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_3",
+            "TASK_6",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Thursday, January 2, 2020 1:40 PM",
+      "endDate": "Friday, May 1, 2020 11:23 PM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/45/64"
+    },
+    {
+      "id": 46,
+      "createdAt": "Tuesday, September 22, 2020 6:49 AM",
+      "status": "feature",
+      "delegatorName": "Misty, Holder",
+      "delegateeName": "Richard, Gallegos",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_6",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Saturday, September 19, 2020 6:28 PM",
+      "endDate": "Friday, December 11, 2020 6:14 PM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/46/64"
+    },
+    {
+      "id": 47,
+      "createdAt": "Thursday, October 29, 2020 9:42 AM",
+      "status": "cancelled",
+      "delegatorName": "Moody, French",
+      "delegateeName": "Bolton, Reid",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Sunday, September 13, 2020 2:13 AM",
+      "endDate": "Wednesday, June 3, 2020 6:40 PM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/47/64"
+    },
+    {
+      "id": 48,
+      "createdAt": "Sunday, February 9, 2020 9:21 AM",
+      "status": "cancelled",
+      "delegatorName": "Randall, Russell",
+      "delegateeName": "Susana, Gould",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Thursday, April 23, 2020 2:27 AM",
+      "endDate": "Saturday, May 2, 2020 12:37 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/48/64"
+    },
+    {
+      "id": 49,
+      "createdAt": "Monday, June 22, 2020 2:28 AM",
+      "status": "current",
+      "delegatorName": "Perez, Clarke",
+      "delegateeName": "Bette, Martinez",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_3",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Thursday, December 17, 2020 1:10 PM",
+      "endDate": "Friday, February 7, 2020 9:54 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/49/64"
+    },
+    {
+      "id": 50,
+      "createdAt": "Sunday, March 29, 2020 12:41 PM",
+      "status": "feature",
+      "delegatorName": "Diaz, Frederick",
+      "delegateeName": "Tricia, Robles",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Thursday, March 26, 2020 7:42 PM",
+      "endDate": "Friday, May 29, 2020 4:01 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/50/64"
+    }
+  ],
+  "delegators": [
+    {
+      "id": 51,
+      "createdAt": "Tuesday, November 3, 2020 2:08 AM",
+      "status": "feature",
+      "delegatorName": "Chaney, Hinton",
+      "delegateeName": "Flynn, Copeland",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Saturday, March 21, 2020 11:47 AM",
+      "endDate": "Wednesday, July 29, 2020 5:41 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/51/64"
+    },
+    {
+      "id": 52,
+      "createdAt": "Saturday, August 1, 2020 11:51 AM",
+      "status": "feature",
+      "delegatorName": "Spears, Gardner",
+      "delegateeName": "Wallace, Lewis",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Saturday, April 4, 2020 9:22 PM",
+      "endDate": "Tuesday, January 14, 2020 1:49 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/52/64"
+    },
+    {
+      "id": 53,
+      "createdAt": "Wednesday, November 18, 2020 2:21 PM",
+      "status": "feature",
+      "delegatorName": "Melissa, Schwartz",
+      "delegateeName": "Davenport, Maynard",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Tuesday, March 17, 2020 7:14 PM",
+      "endDate": "Wednesday, February 19, 2020 8:17 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/53/64"
+    },
+    {
+      "id": 54,
+      "createdAt": "Friday, September 18, 2020 7:46 AM",
+      "status": "cancelled",
+      "delegatorName": "Church, Hill",
+      "delegateeName": "Harper, Nunez",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Wednesday, September 23, 2020 4:57 AM",
+      "endDate": "Thursday, January 2, 2020 10:53 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/54/64"
+    },
+    {
+      "id": 55,
+      "createdAt": "Friday, May 29, 2020 8:17 PM",
+      "status": "cancelled",
+      "delegatorName": "Gloria, Murphy",
+      "delegateeName": "Faulkner, Bates",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Saturday, January 4, 2020 10:50 AM",
+      "endDate": "Tuesday, September 1, 2020 12:47 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/55/64"
+    },
+    {
+      "id": 56,
+      "createdAt": "Sunday, November 8, 2020 4:40 AM",
+      "status": "current",
+      "delegatorName": "Bryant, Rios",
+      "delegateeName": "Harriet, Gilbert",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Tuesday, March 31, 2020 12:51 AM",
+      "endDate": "Tuesday, January 7, 2020 4:48 PM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/56/64"
+    },
+    {
+      "id": 57,
+      "createdAt": "Saturday, January 18, 2020 1:42 PM",
+      "status": "current",
+      "delegatorName": "Annmarie, Dawson",
+      "delegateeName": "Mack, Rowland",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Saturday, July 11, 2020 3:32 PM",
+      "endDate": "Thursday, April 23, 2020 9:13 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/57/64"
+    },
+    {
+      "id": 58,
+      "createdAt": "Thursday, November 5, 2020 7:13 PM",
+      "status": "feature",
+      "delegatorName": "Beach, Keith",
+      "delegateeName": "Tessa, Frederick",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Sunday, September 13, 2020 7:31 AM",
+      "endDate": "Tuesday, October 13, 2020 7:36 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/58/64"
+    },
+    {
+      "id": 59,
+      "createdAt": "Sunday, January 19, 2020 7:40 PM",
+      "status": "current",
+      "delegatorName": "Henrietta, Colon",
+      "delegateeName": "Mandy, Buck",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Tuesday, June 23, 2020 8:52 AM",
+      "endDate": "Thursday, April 23, 2020 4:37 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/59/64"
+    },
+    {
+      "id": 60,
+      "createdAt": "Tuesday, December 15, 2020 10:45 PM",
+      "status": "cancelled",
+      "delegatorName": "Watts, Vance",
+      "delegateeName": "Estes, Gaines",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Friday, October 9, 2020 2:11 PM",
+      "endDate": "Wednesday, November 11, 2020 6:26 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/60/64"
+    },
+    {
+      "id": 61,
+      "createdAt": "Saturday, July 18, 2020 6:28 PM",
+      "status": "feature",
+      "delegatorName": "Reyna, Montoya",
+      "delegateeName": "Dodson, Phelps",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Friday, May 29, 2020 3:28 PM",
+      "endDate": "Monday, June 29, 2020 3:54 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/61/64"
+    },
+    {
+      "id": 62,
+      "createdAt": "Wednesday, July 1, 2020 12:41 AM",
+      "status": "current",
+      "delegatorName": "Parsons, Lancaster",
+      "delegateeName": "Ashley, Mcguire",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Saturday, December 12, 2020 2:06 PM",
+      "endDate": "Friday, August 21, 2020 5:22 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/62/64"
+    },
+    {
+      "id": 63,
+      "createdAt": "Monday, July 20, 2020 8:04 AM",
+      "status": "current",
+      "delegatorName": "Kenya, Lamb",
+      "delegateeName": "Norris, Sloan",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_3",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Wednesday, April 1, 2020 10:53 PM",
+      "endDate": "Thursday, July 9, 2020 10:05 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/63/64"
+    },
+    {
+      "id": 64,
+      "createdAt": "Saturday, February 15, 2020 2:15 PM",
+      "status": "cancelled",
+      "delegatorName": "Elisa, Palmer",
+      "delegateeName": "Fowler, Benton",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Wednesday, May 13, 2020 3:24 AM",
+      "endDate": "Monday, June 22, 2020 2:13 PM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/64/64"
+    },
+    {
+      "id": 65,
+      "createdAt": "Wednesday, January 22, 2020 9:04 PM",
+      "status": "current",
+      "delegatorName": "Langley, Guy",
+      "delegateeName": "Foster, Skinner",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Tuesday, March 3, 2020 3:48 PM",
+      "endDate": "Sunday, May 10, 2020 9:41 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/65/64"
+    },
+    {
+      "id": 66,
+      "createdAt": "Saturday, October 3, 2020 5:19 AM",
+      "status": "feature",
+      "delegatorName": "Figueroa, Goff",
+      "delegateeName": "Lori, Lott",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Friday, December 18, 2020 2:35 AM",
+      "endDate": "Tuesday, March 24, 2020 5:44 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/66/64"
+    },
+    {
+      "id": 67,
+      "createdAt": "Sunday, April 5, 2020 8:02 AM",
+      "status": "cancelled",
+      "delegatorName": "Carolina, Hartman",
+      "delegateeName": "Verna, Britt",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Monday, March 16, 2020 8:07 AM",
+      "endDate": "Monday, September 7, 2020 2:24 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/67/64"
+    },
+    {
+      "id": 68,
+      "createdAt": "Thursday, June 25, 2020 11:52 AM",
+      "status": "current",
+      "delegatorName": "Sweeney, Lucas",
+      "delegateeName": "Crawford, Bennett",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Tuesday, January 28, 2020 9:55 PM",
+      "endDate": "Saturday, March 21, 2020 6:16 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/68/64"
+    },
+    {
+      "id": 69,
+      "createdAt": "Friday, May 29, 2020 5:36 AM",
+      "status": "current",
+      "delegatorName": "Taylor, Mcdaniel",
+      "delegateeName": "Daisy, Wagner",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Wednesday, March 25, 2020 12:55 PM",
+      "endDate": "Tuesday, September 8, 2020 1:46 PM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/69/64"
+    },
+    {
+      "id": 70,
+      "createdAt": "Thursday, April 23, 2020 7:34 AM",
+      "status": "feature",
+      "delegatorName": "Luann, Farrell",
+      "delegateeName": "Matilda, King",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Monday, August 17, 2020 10:22 PM",
+      "endDate": "Friday, November 6, 2020 6:23 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/70/64"
+    },
+    {
+      "id": 71,
+      "createdAt": "Monday, August 10, 2020 3:05 AM",
+      "status": "cancelled",
+      "delegatorName": "Deanne, Vaughn",
+      "delegateeName": "Madelyn, Ewing",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Sunday, July 19, 2020 12:18 AM",
+      "endDate": "Thursday, February 6, 2020 12:38 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/71/64"
+    },
+    {
+      "id": 72,
+      "createdAt": "Wednesday, July 1, 2020 1:53 AM",
+      "status": "current",
+      "delegatorName": "Bertha, Duffy",
+      "delegateeName": "Mcintyre, Church",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Friday, August 21, 2020 10:56 AM",
+      "endDate": "Wednesday, April 8, 2020 1:35 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/72/64"
+    },
+    {
+      "id": 73,
+      "createdAt": "Sunday, March 8, 2020 12:01 AM",
+      "status": "feature",
+      "delegatorName": "Olga, Mendoza",
+      "delegateeName": "Odom, Pacheco",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Sunday, January 19, 2020 6:23 PM",
+      "endDate": "Tuesday, May 12, 2020 6:29 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/73/64"
+    },
+    {
+      "id": 74,
+      "createdAt": "Saturday, August 1, 2020 1:23 PM",
+      "status": "cancelled",
+      "delegatorName": "Mcdowell, Fowler",
+      "delegateeName": "Jeanette, Lane",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Saturday, July 18, 2020 2:24 PM",
+      "endDate": "Sunday, October 4, 2020 6:24 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/74/64"
+    },
+    {
+      "id": 75,
+      "createdAt": "Monday, September 21, 2020 4:17 AM",
+      "status": "cancelled",
+      "delegatorName": "Elvia, Dudley",
+      "delegateeName": "Bessie, Bender",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Friday, April 3, 2020 1:09 PM",
+      "endDate": "Thursday, October 8, 2020 5:21 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/75/64"
+    },
+    {
+      "id": 76,
+      "createdAt": "Thursday, June 4, 2020 12:20 PM",
+      "status": "feature",
+      "delegatorName": "Brandi, Golden",
+      "delegateeName": "Blanche, Harvey",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Friday, June 5, 2020 12:08 AM",
+      "endDate": "Monday, November 30, 2020 7:13 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/76/64"
+    },
+    {
+      "id": 77,
+      "createdAt": "Saturday, May 30, 2020 4:18 AM",
+      "status": "cancelled",
+      "delegatorName": "Harriett, Chaney",
+      "delegateeName": "Manning, Bullock",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Saturday, January 11, 2020 11:40 AM",
+      "endDate": "Friday, May 8, 2020 9:35 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/77/64"
+    },
+    {
+      "id": 78,
+      "createdAt": "Thursday, January 2, 2020 5:29 AM",
+      "status": "current",
+      "delegatorName": "Tara, Carlson",
+      "delegateeName": "Jana, Fernandez",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Monday, October 26, 2020 6:43 PM",
+      "endDate": "Sunday, September 6, 2020 5:38 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/78/64"
+    },
+    {
+      "id": 79,
+      "createdAt": "Monday, July 13, 2020 1:13 AM",
+      "status": "feature",
+      "delegatorName": "Daniel, Morrow",
+      "delegateeName": "Myra, Briggs",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Monday, February 17, 2020 9:23 PM",
+      "endDate": "Monday, February 10, 2020 5:33 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/79/64"
+    },
+    {
+      "id": 80,
+      "createdAt": "Friday, August 14, 2020 11:02 PM",
+      "status": "cancelled",
+      "delegatorName": "Griffin, Glass",
+      "delegateeName": "House, Crawford",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Wednesday, August 5, 2020 9:07 PM",
+      "endDate": "Thursday, July 16, 2020 12:20 PM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/80/64"
+    },
+    {
+      "id": 81,
+      "createdAt": "Friday, September 4, 2020 7:00 AM",
+      "status": "feature",
+      "delegatorName": "Nellie, Stark",
+      "delegateeName": "Cooper, Cortez",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Tuesday, March 3, 2020 10:32 AM",
+      "endDate": "Monday, March 16, 2020 10:28 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/81/64"
+    },
+    {
+      "id": 82,
+      "createdAt": "Thursday, March 5, 2020 6:52 AM",
+      "status": "feature",
+      "delegatorName": "Blackburn, Hammond",
+      "delegateeName": "Rhodes, Frank",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Tuesday, July 7, 2020 9:57 AM",
+      "endDate": "Thursday, June 4, 2020 12:29 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/82/64"
+    },
+    {
+      "id": 83,
+      "createdAt": "Saturday, April 18, 2020 1:05 PM",
+      "status": "current",
+      "delegatorName": "Roxanne, Blanchard",
+      "delegateeName": "Kramer, Melton",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Sunday, August 16, 2020 4:37 AM",
+      "endDate": "Friday, May 1, 2020 3:42 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/83/64"
+    },
+    {
+      "id": 84,
+      "createdAt": "Sunday, May 31, 2020 2:02 PM",
+      "status": "cancelled",
+      "delegatorName": "Sherry, Christian",
+      "delegateeName": "Franks, Nichols",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Friday, August 28, 2020 7:47 AM",
+      "endDate": "Wednesday, November 11, 2020 11:22 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/84/64"
+    },
+    {
+      "id": 85,
+      "createdAt": "Friday, March 20, 2020 2:46 AM",
+      "status": "feature",
+      "delegatorName": "Mattie, Reid",
+      "delegateeName": "Merle, Hayes",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Tuesday, July 14, 2020 12:47 AM",
+      "endDate": "Sunday, March 22, 2020 12:56 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/85/64"
+    },
+    {
+      "id": 86,
+      "createdAt": "Tuesday, August 25, 2020 11:35 PM",
+      "status": "feature",
+      "delegatorName": "Cecelia, George",
+      "delegateeName": "Wooten, Griffith",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Saturday, April 11, 2020 2:09 PM",
+      "endDate": "Thursday, June 18, 2020 10:24 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/86/64"
+    },
+    {
+      "id": 87,
+      "createdAt": "Friday, May 29, 2020 3:27 PM",
+      "status": "cancelled",
+      "delegatorName": "Richard, Elliott",
+      "delegateeName": "Berta, Bishop",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Wednesday, October 28, 2020 1:13 AM",
+      "endDate": "Wednesday, February 12, 2020 3:58 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/87/64"
+    },
+    {
+      "id": 88,
+      "createdAt": "Saturday, August 29, 2020 3:20 AM",
+      "status": "feature",
+      "delegatorName": "Sheppard, Cross",
+      "delegateeName": "Mcmillan, Page",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Thursday, March 12, 2020 8:07 AM",
+      "endDate": "Wednesday, December 16, 2020 7:14 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/88/64"
+    },
+    {
+      "id": 89,
+      "createdAt": "Tuesday, April 7, 2020 12:37 AM",
+      "status": "cancelled",
+      "delegatorName": "Tanisha, Robinson",
+      "delegateeName": "Lee, Benjamin",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Wednesday, April 15, 2020 4:40 AM",
+      "endDate": "Monday, February 24, 2020 3:17 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/89/64"
+    },
+    {
+      "id": 90,
+      "createdAt": "Tuesday, August 11, 2020 8:45 AM",
+      "status": "feature",
+      "delegatorName": "Diana, Woods",
+      "delegateeName": "Stafford, Nelson",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Thursday, March 19, 2020 1:22 AM",
+      "endDate": "Wednesday, December 2, 2020 2:42 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/90/64"
+    },
+    {
+      "id": 91,
+      "createdAt": "Tuesday, November 24, 2020 12:23 PM",
+      "status": "current",
+      "delegatorName": "Brigitte, Guzman",
+      "delegateeName": "Virginia, Forbes",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Friday, November 27, 2020 2:42 AM",
+      "endDate": "Monday, June 22, 2020 5:02 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/91/64"
+    },
+    {
+      "id": 92,
+      "createdAt": "Tuesday, October 20, 2020 3:21 AM",
+      "status": "current",
+      "delegatorName": "Delia, Hobbs",
+      "delegateeName": "Burt, Johnston",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Saturday, September 26, 2020 4:38 AM",
+      "endDate": "Monday, March 16, 2020 12:05 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/92/64"
+    },
+    {
+      "id": 93,
+      "createdAt": "Monday, June 15, 2020 3:18 PM",
+      "status": "feature",
+      "delegatorName": "Petersen, Nolan",
+      "delegateeName": "Foreman, Stanton",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Friday, December 11, 2020 11:58 PM",
+      "endDate": "Sunday, January 26, 2020 9:32 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/93/64"
+    },
+    {
+      "id": 94,
+      "createdAt": "Thursday, July 2, 2020 3:34 PM",
+      "status": "cancelled",
+      "delegatorName": "Anita, Alexander",
+      "delegateeName": "Madge, Parks",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_3",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Sunday, November 15, 2020 7:14 AM",
+      "endDate": "Monday, August 24, 2020 1:22 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/94/64"
+    },
+    {
+      "id": 95,
+      "createdAt": "Sunday, November 29, 2020 6:25 AM",
+      "status": "current",
+      "delegatorName": "Gould, Clay",
+      "delegateeName": "Annabelle, Bridges",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_1",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Friday, June 12, 2020 2:32 PM",
+      "endDate": "Friday, May 8, 2020 6:11 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/95/64"
+    },
+    {
+      "id": 96,
+      "createdAt": "Thursday, October 15, 2020 5:39 PM",
+      "status": "cancelled",
+      "delegatorName": "Dorothea, Hooper",
+      "delegateeName": "Concepcion, Whitehead",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_3",
+            "TASK_6",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        }
+      ],
+      "frequency": "MONTHLY",
+      "startDate": "Tuesday, May 26, 2020 9:07 AM",
+      "endDate": "Friday, October 30, 2020 10:25 PM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/96/64"
+    },
+    {
+      "id": 97,
+      "createdAt": "Tuesday, April 28, 2020 7:32 PM",
+      "status": "current",
+      "delegatorName": "Guthrie, Miranda",
+      "delegateeName": "Emily, Snider",
+      "tasks": [
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "PIAH",
+          "taskList": [
+            "TASK_3",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Tuesday, December 15, 2020 1:11 AM",
+      "endDate": "Monday, September 21, 2020 12:59 AM",
+      "entitlements": {
+        "canEdit": false,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/97/64"
+    },
+    {
+      "id": 98,
+      "createdAt": "Friday, February 21, 2020 3:16 AM",
+      "status": "current",
+      "delegatorName": "Meagan, Harmon",
+      "delegateeName": "Ramirez, Booth",
+      "tasks": [
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_1",
+            "TASK_4",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "BI-WEEKLY",
+      "startDate": "Wednesday, May 20, 2020 6:25 PM",
+      "endDate": "Friday, October 23, 2020 5:53 PM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/98/64"
+    },
+    {
+      "id": 99,
+      "createdAt": "Wednesday, July 15, 2020 11:52 PM",
+      "status": "feature",
+      "delegatorName": "Hollie, Slater",
+      "delegateeName": "Valentine, Martin",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_5",
+            "TASK_7"
+          ],
+          "typeKey": "employee"
+        },
+        {
+          "applicationKey": "CRL",
+          "taskList": [
+            "TASK_2",
+            "TASK_4",
+            "TASK_9"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Saturday, May 16, 2020 5:56 PM",
+      "endDate": "Wednesday, May 13, 2020 3:25 AM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": true
+      },
+      "picture": "https://picsum.photos/id/99/64"
+    },
+    {
+      "id": 100,
+      "createdAt": "Monday, September 7, 2020 9:28 AM",
+      "status": "feature",
+      "delegatorName": "Johnston, Leon",
+      "delegateeName": "Mcclure, Burks",
+      "tasks": [
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_2",
+            "TASK_6",
+            "TASK_8"
+          ],
+          "typeKey": "supervisor"
+        },
+        {
+          "applicationKey": "MBL",
+          "taskList": [
+            "TASK_1",
+            "TASK_5",
+            "TASK_8"
+          ],
+          "typeKey": "employee"
+        }
+      ],
+      "frequency": "WEEKLY",
+      "startDate": "Sunday, August 9, 2020 12:23 AM",
+      "endDate": "Sunday, September 27, 2020 1:28 PM",
+      "entitlements": {
+        "canEdit": true,
+        "canCancel": false
+      },
+      "picture": "https://picsum.photos/id/100/64"
+    }
+  ],
+  "delegationType": [
+    {
+      "id": "employee",
+      "name": "delegatees",
+      "displayValue": "Set By Me",
+      "selected": false
+    },
+    {
+      "id": "supervisor",
+      "name": "delegators",
+      "displayValue": "Set For Me",
+      "selected": true
+    }
+  ],
+  "applications": [
+    {
+      "key": "CRL",
+      "displayValue": "Certifications, Registrations & Licenses"
+    },
+    {
+      "key": "MBL",
+      "displayValue": "Mandatory Block Leave"
+    },
+    {
+      "key": "PIAH",
+      "displayValue": "Personal Investments and Accounts"
+    }
+  ],
+  "tasks": [
+    {
+      "key": "TASK_1",
+      "displayValue": "Task 1"
+    },
+    {
+      "key": "TASK_2",
+      "displayValue": "Task 2"
+    },
+    {
+      "key": "TASK_3",
+      "displayValue": "Task 3"
+    },
+    {
+      "key": "TASK_4",
+      "displayValue": "Task 4"
+    },
+    {
+      "key": "TASK_5",
+      "displayValue": "Task 5"
+    },
+    {
+      "key": "TASK_6",
+      "displayValue": "Task 6"
+    },
+    {
+      "key": "TASK_7",
+      "displayValue": "Task 7"
+    },
+    {
+      "key": "TASK_8",
+      "displayValue": "Task 8"
+    },
+    {
+      "key": "TASK_9",
+      "displayValue": "Task 9"
+    }
+  ]
+}

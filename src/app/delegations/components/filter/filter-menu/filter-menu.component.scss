@@ -1,0 +1,18 @@
+@import 'mixins';
+:host {
+  justify-content: flex-end;
+  padding-right: 0.725rem;
+}
+
+.filter-button {
+  width: 1.4rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  @include neo-box-shadow();
+  &__icon {
+    width: 0.9rem;
+    height: 0.9rem;
+    line-height: 0.9rem !important;
+    font-size: 0.9rem;
+  }
+}

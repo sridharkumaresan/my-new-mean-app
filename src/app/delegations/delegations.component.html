@@ -1,0 +1,25 @@
+<div class="delegations-container">
+  <header class="delegations-container__header">
+    <mat-toolbar class="delegations-container__header__toolbar">
+      <span class="logo">
+        <span class="line top"></span>
+        <mat-icon>repeat</mat-icon>
+        <!-- <span class="line bottom"></span> -->
+      </span>
+      <span class="title">Delegations</span>
+      <span class="user" matBadge="20"><mat-icon>face</mat-icon></span>
+    </mat-toolbar>
+  </header>
+  <section class="delegations-container__body">
+    <main class="content">
+      <app-swim-lane></app-swim-lane>
+    </main>
+    <nav class="navigation">
+      <app-filter></app-filter>
+      <perfect-scrollbar [usePSClass]="true">
+        <app-dashboard></app-dashboard>
+      </perfect-scrollbar>
+    </nav>
+  </section>
+  <footer class="delegations-container__footer"></footer>
+</div>

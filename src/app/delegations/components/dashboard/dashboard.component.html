@@ -1,0 +1,23 @@
+<div class="loader-slot">
+  <mat-progress-bar mode="buffer" *ngIf="(viewStatus$ | async) === viewStatuses.Loading"></mat-progress-bar>
+</div>
+<mat-selection-list [multiple]="false" *ngIf="(delegations$ | async) as delegations" class="delegation-list">
+  <mat-list-option *ngFor="let delegation of delegations" (click)="onDelegationSelection(delegation)" class="delegation-list__option {{delegation.status}}">
+    <div class="list-content">
+      <!-- <div class="cross-shadow-ribbon">
+        Text!
+      </div> -->
+      <span class="list-content__image">
+        <img [src]="delegation.picture">
+      </span>
+      <span class="list-content__data">
+        {{delegation.delegatorName}}
+      </span>
+      <span class="list-content__status">
+        <mat-chip-list aria-label="status">
+          <mat-chip color="warn" selected>{{delegation.tasks.length}}</mat-chip>
+        </mat-chip-list>
+      </span>
+    </div>
+  </mat-list-option>
+</mat-selection-list>

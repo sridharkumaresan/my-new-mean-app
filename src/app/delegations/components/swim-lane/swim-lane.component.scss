@@ -1,0 +1,128 @@
+@import 'variables';
+@import 'mixins';
+
+:host {
+  display: flex;
+  flex: 1 0 100%;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%;
+}
+.delegation-card {
+  flex: 1;
+  margin: 1rem 0rem 0rem 1rem;
+  background-color: $backgroundC;
+  @include neo-box-shadow-active();
+  display: flex;
+  .no-selection {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+  }
+  &__left {
+    flex: 0 0 30%;
+    .employee-data {
+      // padding: 2rem 0 2.2rem;
+      // margin-bottom: 2rem;
+      background-color: $backgroundC;
+      text-align: center;
+      overflow: hidden;
+      position: relative;
+      .picture {
+        display: inline-block;
+        height: 8rem;
+        width: 8rem;
+        margin: 1rem 0;
+        z-index: 1;
+        position: relative;
+        &::before {
+          content: "";
+          width: 100%;
+          height: 0;
+          border-radius: 50%;
+          background-color: rgba(0, 128, 0, 0.6);
+          position: absolute;
+          bottom: 135%;
+          right: 0;
+          left: 0;
+          opacity: 0.9;
+          transform: scale(3);
+          transition: all 0.3s linear 0s;
+        }
+        &::after {
+          content: "";
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          background-color: rgba(0, 128, 0, 1);
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1;
+        }
+        img {
+          width: 100%;
+          height: auto;
+          border-radius: 50%;
+          transform: scale(1);
+          transition: all 0.9s ease 0s;
+        }
+      }
+      &:hover {
+        .picture {
+          &::before {
+            height: 100%;
+          }
+          img {
+            box-shadow: 0 0 0 10px $backgroundC;
+            transform: scale(0.7);
+          }
+        }
+      }
+      .title {
+        display: block;
+        font-size: 0.8rem;
+        color: #4e5052;
+        text-transform: capitalize;
+      }
+    }
+    .additional-data {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  &__right {
+    flex: 1;
+  }
+  .row {
+    flex-wrap: wrap;
+    display: flex;
+    flex: 1;
+    &.end {
+      justify-content: flex-end;
+    }
+  }
+  .status-list {
+    .mat-chip {
+      text-transform: uppercase;
+      font-weight: bold;
+      @include neo-box-shadow();
+      &:hover {
+        @include neo-box-shadow-active();
+      }
+    }
+    &__status {
+      &--cancelled {
+        color: $cancelledBC;
+      }
+      &--feature {
+        color: $featureBC;
+      }
+      &--current {
+        color: $currentBC;
+      }
+    }
+  }
+}

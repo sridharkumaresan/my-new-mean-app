@@ -1,0 +1,107 @@
+@import 'mixins';
+@import 'variables';
+
+.loader-slot {
+  height: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  .mat-progress-bar {
+    width: 50%;
+    margin: 0.5rem 0;
+  }
+}
+.delegation-list {
+  padding-left: 1rem;
+  padding-right: 1.6rem;
+  &__option {
+    margin-top: 1.3em;
+    margin-bottom: 1.3rem;
+    @include neo-box-shadow();
+    border-left: 0.275rem solid transparent;
+    &.cancelled {
+      border-color: $cancelledBC;
+    }
+    &.feature {
+      border-color: $featureBC;
+    }
+    &.current {
+      border-color: $currentBC;
+    }
+    &:hover {
+      background: none;
+    }
+    &.mat-list-single-selected-option {
+      @include neo-box-shadow-active();
+      &::after {
+        content: '';
+        position: absolute;
+        top: -0.5rem;
+        right: -0.8rem;
+        height: 0.5rem;
+        width: 0.5rem;
+        background-color: green;
+        border-radius: 50% 50%;
+        animation: pulse-animation 1s infinite;
+      }
+    }
+    .list-content {
+      display: flex;
+      align-items: center;
+      &__image {
+        flex: 0 0 auto;
+        width: 1.4rem;
+        height: 1.4rem;
+        line-height: 1.4rem;
+        margin-right: 0.5rem;
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+        }
+      }
+      &__data {
+        flex: 1;
+      }
+      &__status {
+        justify-content: flex-end;
+      }
+    }
+  }
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 6px rgba(0, 0, 0, 0);
+  }
+}
+
+.cross-shadow-ribbon {
+  position: absolute;
+  background: #EA4335;
+  top: -15px;
+  padding: 10px;
+  margin-left: 15px;
+  color: #FFF;
+  border-radius: 0 0 2px 2px;
+}
+
+.cross-shadow-ribbon:before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 15px solid #A42F25;
+  border-left: 15px solid transparent;
+}
