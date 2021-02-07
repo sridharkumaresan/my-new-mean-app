@@ -69,17 +69,6 @@
           transition: all 0.9s ease 0s;
         }
       }
-      &:hover {
-        .picture {
-          &::before {
-            height: 100%;
-          }
-          img {
-            box-shadow: 0 0 0 10px $backgroundC;
-            transform: scale(0.7);
-          }
-        }
-      }
       .title {
         display: block;
         font-size: 0.8rem;
@@ -122,6 +111,19 @@
       }
       &--current {
         color: $currentBC;
+      }
+    }
+  }
+  &:hover {
+    .employee-data{
+      .picture {
+        &::before {
+          height: 100%;
+        }
+        img {
+          box-shadow: 0 0 0 10px $backgroundC;
+          transform: scale(0.7);
+        }
       }
     }
   }

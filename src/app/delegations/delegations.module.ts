@@ -12,7 +12,8 @@ import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
 import { PERFECT_SCROLLBAR_CONFIG } from 'ngx-perfect-scrollbar';
 import { PerfectScrollbarConfigInterface } from 'ngx-perfect-scrollbar';
 import { StoreModule } from '@ngrx/store';
-import { delegationModuleFeatureKey, delegationModuleReducers, effects } from '@app/delegations/_shared/state/delegation.state';
+import { delegationModuleFeatureKey, delegationModuleReducers } from '@app/delegations/_shared/state/delegation.state';
+import { effectsFromDashboard, effectsFromSwimLane } from '@app/delegations/_shared/state';
 import { EffectsModule } from '@ngrx/effects';
 import { MAT_RIPPLE_GLOBAL_OPTIONS } from '@angular/material/core';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
@@ -32,7 +33,7 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
     FilterModule,
     PerfectScrollbarModule,
     StoreModule.forFeature(delegationModuleFeatureKey, delegationModuleReducers),
-    EffectsModule.forFeature(effects)
+    EffectsModule.forFeature([effectsFromDashboard.DashboardEffects, effectsFromSwimLane.SwimLandEffects])
   ],
   providers: [
     DelegationsDataService,
