@@ -5,7 +5,7 @@ import { DelegationsRoutingModule } from '@delegations/delegations-routing.modul
 import { DelegationsComponent } from '@delegations/delegations.component';
 import { MaterialModule } from '@app/material/material.module';
 import { SwimLaneComponent, DashboardComponent } from '@delegations/components';
-import { DelegationsDataService, StylingService } from '@app/delegations/_shared/services';
+import { DelegationsDataService, StylingService, DelegationFormService } from '@app/delegations/_shared/services';
 import { FilterModule } from '@app/delegations/components/filter/filter.module';
 
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
@@ -16,7 +16,9 @@ import { delegationModuleFeatureKey, delegationModuleReducers } from '@app/deleg
 import { effectsFromDashboard, effectsFromSwimLane } from '@app/delegations/_shared/state';
 import { EffectsModule } from '@ngrx/effects';
 import { MAT_RIPPLE_GLOBAL_OPTIONS } from '@angular/material/core';
-import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { DatesComponent } from './components/swim-lane/dates/dates.component';
+import { ProfileCardComponent } from './components/swim-lane/profile-card/profile-card.component';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true
@@ -24,11 +26,13 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
 
 
 @NgModule({
-  declarations: [DelegationsComponent, DashboardComponent, SwimLaneComponent],
+  declarations: [DelegationsComponent, DashboardComponent, SwimLaneComponent, DatesComponent, ProfileCardComponent],
   imports: [
     CommonModule,
     DelegationsRoutingModule,
     HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule,
     MaterialModule,
     FilterModule,
     PerfectScrollbarModule,
@@ -37,6 +41,7 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   ],
   providers: [
     DelegationsDataService,
+    DelegationFormService,
     StylingService,
     {
       provide: PERFECT_SCROLLBAR_CONFIG,

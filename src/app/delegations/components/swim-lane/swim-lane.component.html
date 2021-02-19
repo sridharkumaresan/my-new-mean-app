@@ -1,4 +1,4 @@
-<mat-card class="delegation-card mat-elevation-z0">
+<mat-card class="delegation-card mat-elevation-z0" [formGroup]="delegationForm">
   <ng-container *ngTemplateOutlet="delegationTmpl; context: {d: delegation$ | async, s: delegationLoading$ | async}"></ng-container>
 </mat-card>
 
@@ -18,19 +18,8 @@
   <!-- Success state and delegation in shown -->
   <ng-container *ngIf="viewStatus === viewStatuses.Success && delegation">
     <aside class="delegation-card__left">
-      <div class="delegation-card__left employee-data">
-        <div class="picture">
-          <img class="img-fluid" [src]="delegation.picture">
-        </div>
-        <div class="team-content">
-          <h3 class="name">{{delegation.delegateeName}}</h3>
-          <h4 class="title">Title Goes Here</h4>
-        </div>
-
-      </div>
-      <div class="delegation-card__left additional-data">
-
-      </div>
+      <app-profile-card [delegation]="delegation" [decorate]="decorate"></app-profile-card>
+      <app-dates [parentFormGroup]="delegationForm"></app-dates>
     </aside>
     <section class="delegation-card__right">
       <div class="row end">
