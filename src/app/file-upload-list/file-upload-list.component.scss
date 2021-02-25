@@ -1,0 +1,24 @@
+:host {
+  display: block;
+}
+@mixin flex-center {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.file-upload-list {
+  margin: 1rem;
+  &__content {
+    &--empty {
+      @include flex-center;
+    }
+  }
+  &__action {
+    @include flex-center;
+    justify-content: space-between;
+    margin-left: 0 !important;
+  }
+
+}
+
+

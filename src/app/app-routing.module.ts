@@ -8,6 +8,10 @@ const routes: Routes = [
     loadChildren: () => import('./delegations/delegations.module').then(m => m.DelegationsModule)
   },
   {
+    path: 'file-upload',
+    loadChildren: () => import('./file-upload-list/file-upload-list.module').then(m => m.FileUploadListModule)
+  },
+  {
     path: '',
     redirectTo: 'delegations',
     pathMatch: 'full'

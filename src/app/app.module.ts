@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from '@app/material/material.module';
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { FileUploadListModule } from './file-upload-list/file-upload-list.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
     StoreDevtoolsModule.instrument({
       name: 'my new mean app',
       maxAge: 25
-    })
+    }),
+    FileUploadListModule
   ],
   bootstrap: [AppComponent]
 })
