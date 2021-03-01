@@ -1,8 +1,13 @@
 :host {
   display: block;
 }
+.tooltip {
+  background-color: rgba(199, 25, 25, 0.7);
+  font-size: 0.8rem;
+  max-width: unset !important;
+}
 .file-item {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #e0e0e0;
   border-radius: 0px !important;
   &__container {
     display: flex;
@@ -43,64 +48,26 @@
       // margin-left: auto;
     }
   }
-}
-
-.icon {
-  width: 1rem;
-  height: 1rem;
-}
-.path {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 0;
-  &.circle {
-    -webkit-animation: dash .9s ease-in-out;
-    animation: dash .9s ease-in-out;
-  }
-  &.line {
-    stroke-dashoffset: 1000;
-    -webkit-animation: dash .9s .35s ease-in-out forwards;
-    animation: dash .9s .35s ease-in-out forwards;
-  }
-  &.check {
-    stroke-dashoffset: -100;
-    -webkit-animation: dash-check .9s .35s ease-in-out forwards;
-    animation: dash-check .9s .35s ease-in-out forwards;
-  }
-}
-
-
-@-webkit-keyframes dash {
-  0% {
-    stroke-dashoffset: 1000;
-  }
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes dash {
-  0% {
-    stroke-dashoffset: 1000;
-  }
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
-@-webkit-keyframes dash-check {
-  0% {
-    stroke-dashoffset: -100;
-  }
-  100% {
-    stroke-dashoffset: 900;
-  }
-}
-
-@keyframes dash-check {
-  0% {
-    stroke-dashoffset: -100;
-  }
-  100% {
-    stroke-dashoffset: 900;
+  &__error {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    &--chip {
+      color: #fff;
+      background-color: red;
+      padding: 0.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 0.2rem;
+    }
+    &--text {
+      color: red;
+      flex: 1;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
   }
 }

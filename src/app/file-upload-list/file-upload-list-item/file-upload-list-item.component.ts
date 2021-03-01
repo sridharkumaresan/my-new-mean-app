@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
+import { slideInUpOnEnterAnimation, slideOutDownOnLeaveAnimation } from 'angular-animations';
 import { FileStatus, FileUpload } from './../model/file-upload';
 
 @Component({
@@ -7,11 +8,14 @@ import { FileStatus, FileUpload } from './../model/file-upload';
   styleUrls: ['./file-upload-list-item.component.scss'],
   encapsulation: ViewEncapsulation.None,
   // changeDetection: ChangeDetectionStrategy.OnPush
+  animations: [
+    slideInUpOnEnterAnimation(),
+    slideOutDownOnLeaveAnimation()
+  ]
 })
 export class FileUploadListItemComponent implements OnInit {
   @Output() remove: EventEmitter<FileUpload> = new EventEmitter();
   @Input() file: FileUpload;
-  public statuses = FileStatus;
   constructor() { }
 
   ngOnInit(): void {

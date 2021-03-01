@@ -1,9 +1,8 @@
-import { trigger, transition, query, stagger, animate, style } from '@angular/animations';
 import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy, ViewChild, ElementRef } from '@angular/core';
+import { fadeInDownOnEnterAnimation, slideOutLeftOnLeaveAnimation } from 'angular-animations';
 import { BehaviorSubject } from 'rxjs';
 import { FileStatus, FileUpload, IFile } from './model/file-upload';
 import { FileUploadService } from './services/file-upload.service';
-import { ListAnimation } from './utils/file-upload.helper';
 
 @Component({
 	selector: 'app-file-upload-list',
@@ -11,7 +10,9 @@ import { ListAnimation } from './utils/file-upload.helper';
 	styleUrls: ['./file-upload-list.component.scss'],
 	encapsulation: ViewEncapsulation.None,
 	changeDetection: ChangeDetectionStrategy.OnPush,
-  animations: [ListAnimation]
+  animations: [
+    fadeInDownOnEnterAnimation({anchor: 'enter', duration: 400}),
+    slideOutLeftOnLeaveAnimation({anchor: 'leave', duration: 300})]
 })
 export class FileUploadListComponent implements OnInit {
 	@ViewChild('fileInput', { static: false }) fileInput: ElementRef;
@@ -64,13 +65,14 @@ export class FileUploadListComponent implements OnInit {
 
   private upload(): void {
 		this.fileInput.nativeElement.value = '';
-		this.files.forEach(file => this.postDocument(file));
+    const filteredFiles = this.files.filter(file => file.status===FileStatus.Initial || file.status===FileStatus.Uploading);
+		filteredFiles.forEach(file => this.postDocument(file));
 	}
 
   private updateFileStatus(response: IFile): void {
     this.files = this.files.map((file: FileUpload) => {
       return (file.arrayIdentifier === response.arrayIdentifier)
-        ? file.setStatus([FileStatus.Failed, FileStatus.Done][Math.floor(Math.random() * 2)])
+        ? file.setStatus(response)
         : file as FileUpload;
     });
     this.files$.next(this.files);

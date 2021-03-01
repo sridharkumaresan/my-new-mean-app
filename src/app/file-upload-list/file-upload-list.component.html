@@ -2,10 +2,13 @@
   <mat-card-content class="file-upload-list__content">
     <ng-container *ngIf="(files$ | async) as files; else empty">
       <ng-container *ngIf="files?.length > 0; else empty">
-        <div [@listAnimation]="files.length">
-          <div *ngFor="let file of files; trackBy: trackById">
-            <app-file-upload-list-item [file]="file" (remove)="remove($event)"></app-file-upload-list-item>
-          </div>
+        <div
+          *ngFor="let file of files; trackBy: trackById; let i = index;"
+          [@enter]="{value: '', params: {delay: i * 100}}"
+          [@leave]>
+          <app-file-upload-list-item [file]="file" (remove)="remove($event)">
+
+          </app-file-upload-list-item>
         </div>
       </ng-container>
     </ng-container>

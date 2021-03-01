@@ -8,10 +8,11 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { MaterialModule } from '@app/material/material.module';
 import { FileUploadListItemComponent } from './file-upload-list-item/file-upload-list-item.component';
 import { FileUploadService } from './services/file-upload.service';
+import { StatusIndicatorComponent } from './file-upload-list-item/status-indicator/status-indicator.component';
 
 
 @NgModule({
-  declarations: [FileUploadListComponent, FileUploadListItemComponent],
+  declarations: [FileUploadListComponent, FileUploadListItemComponent, StatusIndicatorComponent],
   imports: [
     CommonModule,
     FileUploadListRoutingModule,
