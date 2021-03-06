@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy, ViewChild, ElementRef } from '@angular/core';
+import { Component, ViewEncapsulation, ChangeDetectionStrategy, ViewChild, ElementRef } from '@angular/core';
 import { fadeInDownOnEnterAnimation, slideOutLeftOnLeaveAnimation } from 'angular-animations';
 import { BehaviorSubject } from 'rxjs';
 import { FileStatus, FileUpload, IFile } from './model/file-upload';
@@ -14,13 +14,11 @@ import { FileUploadService } from './services/file-upload.service';
     fadeInDownOnEnterAnimation({anchor: 'enter', duration: 400}),
     slideOutLeftOnLeaveAnimation({anchor: 'leave', duration: 300})]
 })
-export class FileUploadListComponent implements OnInit {
+export class FileUploadListComponent {
 	@ViewChild('fileInput', { static: false }) fileInput: ElementRef;
 	public files: FileUpload[] = [];
   public files$: BehaviorSubject<FileUpload[]> = new BehaviorSubject(null);
 	constructor(private uploadService: FileUploadService) {}
-
-	ngOnInit(): void {}
 
 	public remove(file: FileUpload): void {
     this.files = this.files.filter(
@@ -56,11 +54,6 @@ export class FileUploadListComponent implements OnInit {
 
   public submit(): void {
     console.log('Files to be Uploaded', this.files.filter(f => f.status === FileStatus.Done));
-    this.uploadService.postAttachments().subscribe(
-      _ => {
-
-      }
-    );
   }
 
   private upload(): void {

@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { DashboardType } from '@app/delegations/_shared';
 
 @Component({
@@ -8,7 +8,7 @@ import { DashboardType } from '@app/delegations/_shared';
   // encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class TypeToggleSwitchComponent implements OnInit {
+export class TypeToggleSwitchComponent {
   private _data: DashboardType[] = [];
   @Input()
   set data(input: DashboardType[]) {
@@ -25,10 +25,7 @@ export class TypeToggleSwitchComponent implements OnInit {
   get data() { return this._data;}
 
   public selectedValue: any;
-  constructor() { }
 
-  ngOnInit(): void {
-  }
   onToggle(toggledValue: string) {
     console.log('Toggled ', toggledValue);
     this.selectedValue = toggledValue;

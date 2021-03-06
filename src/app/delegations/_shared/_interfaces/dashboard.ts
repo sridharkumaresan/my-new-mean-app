@@ -38,7 +38,6 @@ export class DashboardFilter {
 		startDate: '',
 		endDate: ''
 	};
-	constructor() {}
 	public getDefaultFilter() {
 		this.pagination._limit = 10;
 		this.pagination._page = 1;

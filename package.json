@@ -10,7 +10,8 @@
     "test:watch": "ng test --watchAll --runInBand",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "api": "json-server --watch mock/db.json --routes mock/routes.json --no-cors=true"
+    "api": "json-server --watch mock/db.json --routes mock/routes.json --no-cors=true",
+    "sonar": "sonar-scanner"
   },
   "private": true,
   "dependencies": {
@@ -55,6 +56,7 @@
     "karma-coverage": "~2.0.3",
     "prettier": "^2.2.1",
     "protractor": "~7.0.0",
+    "sonar-scanner": "^3.1.0",
     "ts-jest": "^26.5.3",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",

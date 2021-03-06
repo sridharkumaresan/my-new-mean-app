@@ -53,6 +53,9 @@
     align-items: center;
     flex-wrap: wrap;
     font-size: 0.8rem;
+    min-height: 1.8rem;
+    background: #c7191933;
+    border-radius: 0.8rem;
     &--chip {
       color: #fff;
       background-color: #c71919;
@@ -61,6 +64,7 @@
       align-items: center;
       justify-content: center;
       margin-right: 0.2rem;
+      border-radius: 0.8rem;
     }
     &--text {
       color: #c71919;

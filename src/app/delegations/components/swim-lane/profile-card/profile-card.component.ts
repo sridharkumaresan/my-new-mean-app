@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input, ViewEncapsulation } from '@angular/core';
 import { Delegation } from '@app/delegations/_shared';
 
 @Component({
@@ -8,14 +8,9 @@ import { Delegation } from '@app/delegations/_shared';
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class ProfileCardComponent implements OnInit {
+export class ProfileCardComponent {
 
   @Input() delegation: Delegation;
   @Input() decorate: boolean;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

@@ -1,6 +1,6 @@
-import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
+import { Component, ViewEncapsulation, Input, Output, EventEmitter } from '@angular/core';
 import { slideInUpOnEnterAnimation, slideOutDownOnLeaveAnimation } from 'angular-animations';
-import { FileStatus, FileUpload } from './../model/file-upload';
+import { FileUpload } from './../model/file-upload';
 
 @Component({
   selector: 'app-file-upload-list-item',
@@ -13,13 +13,9 @@ import { FileStatus, FileUpload } from './../model/file-upload';
     slideOutDownOnLeaveAnimation()
   ]
 })
-export class FileUploadListItemComponent implements OnInit {
+export class FileUploadListItemComponent {
   @Output() remove: EventEmitter<FileUpload> = new EventEmitter();
   @Input() file: FileUpload;
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
   delete(): void {
     this.remove.emit(this.file);

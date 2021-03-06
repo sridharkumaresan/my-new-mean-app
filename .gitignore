@@ -48,3 +48,5 @@ Thumbs.db
 # Watch SASS auto generated files
 **/*.css
 **/*.map
+
+.scannerwork

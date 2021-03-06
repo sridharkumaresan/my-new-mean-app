@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-filter-menu',
   templateUrl: './filter-menu.component.html',
   styleUrls: ['./filter-menu.component.scss']
 })
-export class FilterMenuComponent implements OnInit {
+export class FilterMenuComponent {
   isOpen = false;
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

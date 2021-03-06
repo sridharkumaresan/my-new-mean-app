@@ -1,3 +1,4 @@
+import { MaterialModule } from './../../../../material/material.module';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { TypeToggleSwitchComponent } from './type-toggle-switch.component';
@@ -8,6 +9,7 @@ describe('TypeToggleSwitchComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+      imports: [ MaterialModule ],
       declarations: [ TypeToggleSwitchComponent ]
     })
     .compileComponents();
@@ -19,7 +21,7 @@ describe('TypeToggleSwitchComponent', () => {
     fixture.detectChanges();
   });
 
-  // it('should create', () => {
-  //   expect(component).toBeTruthy();
-  // });
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
 });

@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectionStrategy, Input } from '@angular/core';
+import { Component, ChangeDetectionStrategy, Input } from '@angular/core';
 import { FileStatus } from '@app/file-upload-list/model/file-upload';
 
 @Component({
@@ -7,13 +7,8 @@ import { FileStatus } from '@app/file-upload-list/model/file-upload';
   styleUrls: ['./status-indicator.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class StatusIndicatorComponent implements OnInit {
+export class StatusIndicatorComponent {
   @Input() status: FileStatus;
   public statuses = FileStatus;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

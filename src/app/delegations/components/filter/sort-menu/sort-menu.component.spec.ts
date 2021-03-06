@@ -21,7 +21,7 @@ describe('SortMenuComponent', () => {
     fixture.detectChanges();
   });
 
-  // it('should create', () => {
+  it('should create', () => {
   //   expect(component).toBeTruthy();
   // });
 });
