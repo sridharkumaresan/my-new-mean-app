@@ -2,7 +2,7 @@
   display: block;
 }
 .tooltip {
-  background-color: rgba(199, 25, 25, 0.7);
+  background-color: #c71919b3;
   font-size: 0.8rem;
   max-width: unset !important;
 }
@@ -55,7 +55,7 @@
     font-size: 0.8rem;
     &--chip {
       color: #fff;
-      background-color: red;
+      background-color: #c71919;
       padding: 0.2rem;
       display: flex;
       align-items: center;
@@ -63,7 +63,7 @@
       margin-right: 0.2rem;
     }
     &--text {
-      color: red;
+      color: #c71919;
       flex: 1;
       white-space: nowrap;
       overflow: hidden;

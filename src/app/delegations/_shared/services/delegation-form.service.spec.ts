@@ -1,12 +1,17 @@
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { TestBed } from '@angular/core/testing';
-
 import { DelegationFormService } from './delegation-form.service';
 
 describe('DelegationFormService', () => {
   let service: DelegationFormService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({
+      imports: [HttpClientTestingModule],
+      providers: [
+        DelegationFormService
+      ]
+    });
     service = TestBed.inject(DelegationFormService);
   });
 
